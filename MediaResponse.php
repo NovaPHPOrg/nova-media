@@ -12,8 +12,9 @@ declare(strict_types=1);
 
 namespace nova\plugin\media;
 
-use nova\framework\request\Response;
-use nova\framework\request\ResponseType;
+
+use nova\framework\http\Response;
+use nova\framework\http\ResponseType;
 
 class MediaResponse extends Response
 {
